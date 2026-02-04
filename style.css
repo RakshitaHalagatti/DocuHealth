@@ -12,7 +12,7 @@ body {
   height: 75vh;
 
   /* 🔽 CHANGE IMAGE LINK HERE 🔽 */
-  background-image: url("C:\Users\RAKSHITA H\OneDrive\Desktop\health-doc-organizer\health.jpg");
+  background-image: url("img.jpg");
 
   background-size: cover;
   background-position: center;
@@ -48,4 +48,5 @@ body {
 .footer {
   color: #666;
 }
+
 
