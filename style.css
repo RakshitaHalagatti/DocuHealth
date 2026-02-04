@@ -1,0 +1,50 @@
+/* ================= GLOBAL ================= */
+
+body {
+  margin: 0;
+  background-color: #f5f7fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= HERO BACKGROUND ================= */
+
+.hero-section {
+  height: 75vh;
+
+  /* 🔽 CHANGE IMAGE LINK HERE 🔽 */
+  background-image: url("https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1400&q=80");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+/* Dark overlay so text is readable */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Centered content */
+.hero-content {
+  color: white;
+}
+.hero-content h1 {
+  margin-bottom: 15px;
+}
+.hero-content p {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+  color: #666;
+}
